@@ -39,7 +39,7 @@ on:
 
 env:
   ACR_RESOURCE_GROUP: suminrg
-  AZURE_CONTAINER_REGISTRY: skDemoACR
+  AZURE_CONTAINER_REGISTRY: skdemoacr
   CONTAINER_NAME: samples/contoso-website
   CLUSTER_RESOURCE_GROUP: suminrg
   CLUSTER_NAME: skauto
@@ -47,7 +47,7 @@ env:
     ./kubernetes/deployment.yaml
   DOCKER_FILE: ./Dockerfile
   BUILD_CONTEXT_PATH: ./
-  NAMESPACE: namespace-workflow-1729041725116
+  NAMESPACE: namespace-workflow-1729045110156
 
 jobs:
   buildImage:
