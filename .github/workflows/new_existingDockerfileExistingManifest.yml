@@ -45,9 +45,11 @@ env:
   CLUSTER_NAME: skauto
   DEPLOYMENT_MANIFEST_PATH: |
     ./kubernetes/deployment.yaml
+    ./kubernetes/ingress.yaml
+    ./kubernetes/service.yaml
   DOCKER_FILE: ./Dockerfile
   BUILD_CONTEXT_PATH: ./
-  NAMESPACE: namespace-workflow-1729045110156
+  NAMESPACE: namespace-workflow-1729047958357
 
 jobs:
   buildImage:
