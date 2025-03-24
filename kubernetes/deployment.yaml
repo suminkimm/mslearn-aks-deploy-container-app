@@ -12,7 +12,7 @@ spec:
         app: contoso-website
     spec:
       containers:
-        - image: skdemoacr.azurecr.io/samples/contoso-website
+        - image: skvnetregistry.azurecr.io/samples/contoso-website
           name: contoso-website
           resources:
             requests:
